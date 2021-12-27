@@ -208,6 +208,14 @@ h4 {
 
 }
 
+.row--nosotras {
+    background-image: linear-gradient(to right bottom, #ffffff, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
 .p--bienvenidos {
     text-align: justify;
 }
@@ -221,6 +229,20 @@ h4 {
     text-align: center;
     padding: 100px;
 }
+
+.slideTestimonios {
+    background-color: seagreen;
+}
+
+.img--nosotras {
+    border-radius: 3px;
+    width: 80%;
+    height: auto;
+    
+    margin-right: 10px;
+}
+
+
 
 /* fin main */
 
