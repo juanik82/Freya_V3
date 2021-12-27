@@ -242,6 +242,16 @@ h4 {
     margin-right: 10px;
 }
 
+.row-tabla {
+    background-image: linear-gradient(to right bottom, #ffffff, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+
+
 
 
 /* fin main */
