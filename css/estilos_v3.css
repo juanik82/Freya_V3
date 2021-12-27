@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* font-family: 'Satisfy', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* inicio header */
+.img--header {
+    height: 150px;
+    margin-left: 100px;
+}
+
+.h2--header {
+    /* margin-top: 75px; */
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.row--header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* fin header */
+
+
+/* inicio menu de navegacion */
+.navbar {
+    background-color: #34bfb154 !important;
+}
+
+.navbar ul li {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* fin menu de navegacion */
+
+
+
+/* inicio footer */
+
+
+#navSecundaria {
+    background-color: rgba(255, 235, 205, 0); 
+}
+
+.footer__ul li {
+    margin-bottom: 8px;
+}
+
+.footer__ul {
+    list-style: none;
+}
+
+.footer__a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer__a:hover {
+    color: blue;
+}
+
+.footer__a:active {
+    color: rgb(87, 2, 87)
+}
+
+.footer__img {
+    width: 20px;
+    display: block;
+    margin: 4px;
+}
+
+.footer__tablaContacto tr td img {
+    padding-bottom: 15px;
+}
+    
+    
+    
+
+
+
+.footer__div--redes {
+    margin-bottom: 25px;
+}
+
+
+
+footer {
+    background-color: #34bfb154;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer__p {
+    font-family: 'Playfair Display', serif;
+}
+
+/* fin footer */
+
+
+/* inicio main */
+
+/* descuentos */
+
+
+.giftCard {
+    height: 100px;
+    
+}
+
+.div--giftCard p {
+    margin-top: 20px;
+    
+}
+
+.div--descuentos h3 {
+    margin-bottom: 20px;
+}
+
+.container--descuentos{
+    background-image: linear-gradient(to right bottom, #ffffff, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.container--descuentos h2{
+    padding: 10px;
+}
+
+/* fin descuentos */
+
+
+
+/* mapa */
+
+.seccion--mapa {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+
+.container--mapa {
+    padding: 15px 15px;
+    margin-bottom: 20px;
+}
+
+/* fin mapa */
+
+
+h2{
+    font-family: 'Satisfy', cursive;
+
+}
+
+.centrado {
+    text-align: center;
+}
+
+.seccion__img--descuentos {
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+.img--bienvenidos {
+    width: 500px;
+    height: auto;
+    border-radius: 3px;
+    max-width: 100%
+}
+
+.img--redes {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.row--bienvenidos {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right bottom, #ffffff, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
+    padding: 10px;
+
+}
+
+.p--bienvenidos {
+    text-align: justify;
+}
+
+.testimonios {
+    height: 300px;
+    background-color: rgba(210, 105, 30, 0.274);
+}
+
+.testimonios h2 {
+    text-align: center;
+    padding: 100px;
+}
+
+/* fin main */
+

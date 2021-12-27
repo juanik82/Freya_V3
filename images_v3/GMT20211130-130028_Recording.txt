@@ -1,0 +1,67 @@
+00:49:03	Lorena Dzimbeg:	Buen dia
+00:49:18	Ignacio Piccino:	Buen día!!
+00:51:33	Francisco  salatino:	va lagueado puede ser? o soy yo?
+00:51:47	Julieta Ravasi:	Va bien
+00:51:49	Diego Vazquez:	Va bien
+00:51:52	Marcos Miron:	bien
+00:52:08	Francisco  salatino:	ahora va bn <3
+00:58:35	Valeria Galíndez:	perfecto
+00:59:25	Valeria Galíndez:	<ul> va justo debajo de <nav>?
+00:59:38	Valeria Galíndez:	ah, ok
+01:00:08	Valeria Galíndez:	aaaaah
+01:00:27	Julián Torres Mendioroz:	como se llama el plug?
+01:00:41	Julieta Ravasi:	Con botón derecho pueden poner format algo
+01:00:45	Julieta Ravasi:	Y les acomoda tambien
+01:01:01	Julián Torres Mendioroz:	y con que letra del teclado lo identas?
+01:01:10	Roberto Daniel Trezzini:	configurar vsc
+01:01:46	Julián Torres Mendioroz:	ahhh, joyaa, gracias!
+01:04:01	Julián Torres Mendioroz:	Explicas muy copado Mati! :D
+01:04:16	Francisco  salatino:	exelente servicio matii
+01:04:18	Valeria Galíndez:	tal cual
+01:04:49	Julián Torres Mendioroz:	sisi, la verdad que si, un lujo
+01:04:57	Juan Pablo Maure:	No encuentro el plug in..  Como se llama?
+01:05:05	Julián Torres Mendioroz:	Beautify
+01:05:06	Julieta Ravasi:	Beutify
+01:05:11	Julieta Ravasi:	eso
+01:05:21	Julián Torres Mendioroz:	Ah, algo asi era jajaj
+01:05:29	Julieta Ravasi:	Beautify sin
+01:12:07	Marcos Miron:	es articulo o article
+01:12:56	Daniel barbosa Quintero:	la etiqwueta es article, el puso articulo en la clase a modo de ejemnplo
+01:13:16	Marcos Miron:	perfecto gracias!!
+01:13:37	Francisco  salatino:	!
+01:15:26	Manuel Florez:	yo
+01:16:31	Julieta Ravasi:	Para que es eso
+01:16:34	Julieta Ravasi:	No entendi
+01:17:13	Francisco  salatino:	no hay que descargar nada?
+01:17:32	Julieta Ravasi:	Okok gracias
+01:20:14	Marcos Miron:	si
+01:20:14	Diego Vazquez:	sisi
+01:20:16	Julieta Ravasi:	siii
+01:20:17	Daniel Camelo Alvarado:	si
+01:20:20	Lorena Dzimbeg:	si
+01:20:21	Walter Verdun:	si
+01:20:38	Sebastián Pérez:	unifica todos los navegadores
+01:21:27	Julieta Ravasi:	Una vez linkeamos eso en html, ya no lo tocamos mas a normalize no?
+01:21:35	Julieta Ravasi:	Solamente usamos css para modificar y ya
+01:21:49	Julieta Ravasi:	perfecto
+01:22:50	Daniel barbosa Quintero:	body
+01:25:02	Sebastián Pérez:	cual es el valor absoluto, para calcular porcentajes po px?
+01:25:05	Ernesto Ramón Londero:	claro
+01:26:01	Ernesto Ramón Londero:	porcentajes y vw-vh son funcionales al dispositivo
+01:26:11	Ernesto Ramón Londero:	px cm etc son fijos
+01:28:48	Marcos Miron:	no
+01:33:33	Marcos Miron:	bien
+01:44:41	Roberto Daniel Trezzini:	podrías poner el link para sacar la paleta de colores y el gradiente
+01:44:42	Marcos Miron:	80
+01:47:41	Julieta Ravasi:	No falta un guion?
+01:58:06	Daniel barbosa Quintero:	cual es la diferencia de poner viewweigth y % en lo que ocupa en este caso el article ?
+02:02:14	Daniel barbosa Quintero:	vale gracias
+02:03:48	Manuel Florez:	El lugar de la pantalla
+02:04:18	Francisco  salatino:	como que lo acomoda
+02:04:54	(Profesor)Emanuel Cabral:	les da el posicionamiento con relacion al lugar que ubica
+02:06:33	(Profesor)Emanuel Cabral:	el fixed
+02:06:42	Manuel Florez:	Fija en la pantalla
+02:08:11	Ernesto Ramón Londero:	ahh perfecto!
+02:08:44	Ernesto Ramón Londero:	Buenisimo Matias. Muchas gracias
+02:10:28	Marcos Miron:	muy buena clase!!
+02:10:36	Francisco  salatino:	muy bien explicado profee
