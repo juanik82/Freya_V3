@@ -134,7 +134,7 @@ footer {
 }
 
 .container--descuentos{
-    background-image: linear-gradient(to right bottom, #ffffff, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
+    background-color: #34bfb154;
     padding: 10px;
     margin-top: 15px;
 }
@@ -167,6 +167,14 @@ footer {
 h2{
     font-family: 'Satisfy', cursive;
 
+}
+
+.h2--testimonios {
+   margin-top: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0;
+   padding: 10px 25px;
 }
 
 .centrado {
@@ -203,8 +211,9 @@ h4 {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-image: linear-gradient(to right bottom, #ffffff, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
+    background-color: #34bfb154;
     padding: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.116);
 
 }
 
@@ -212,26 +221,57 @@ h4 {
     background-image: linear-gradient(to right bottom, #ffffff, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
 }
+
 
 
 .p--bienvenidos {
     text-align: justify;
+    padding: 15px;
+}
+.p--testimonios {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-.p--bienvenidos p {
-    margin-top: 10px;
+.card--tratamientos {
+    margin: 35px;
 }
 
-.p--bienvenidos h3 {
-    margin-top: 20px;
+.card-text {
+    text-align: justify;
 }
+
+.card-img-top {
+    padding-top: 15px;
+}
+
+
 
 .testimonios {
     height: 300px;
     background-color: rgba(210, 105, 30, 0.274);
 }
+
+.nombres--testimonios {
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+
 
 .testimonios h2 {
     text-align: center;
@@ -239,19 +279,28 @@ h4 {
 }
 
 .slideTestimonios {
-    background-color: seagreen;
+    background-color: rgb(245, 229, 240);
+    height: 304px;
+    
 }
 
 .img--nosotras {
-    border-radius: 3px;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80% !important;
     height: auto;
     
-    margin-right: 10px;
+}
+
+.p--nosotras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .row-tabla {
-    background-image: linear-gradient(to right bottom, #ffffff, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
+    background-image: linear-gradient(to left, #eef2f8, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
