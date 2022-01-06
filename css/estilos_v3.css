@@ -232,7 +232,7 @@ h4 {
 }
 
 .row--nosotras {
-    background-image: linear-gradient(to right bottom, #ffffff, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
+    background-image: linear-gradient(to bottom, #f5e5f0, #f6ecf5, #f8f3fa, #fbf9fd, #ffffff);
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
