@@ -244,8 +244,19 @@ h4 {
 
 .p--bienvenidos {
     text-align: justify;
-    padding: 15px;
+    /* padding: 15px; */
 }
+
+.textoBienvenidos {
+    padding: 5px;
+}
+
+.tituloBienvenidos {
+    margin-top: 10px;
+}
+
+
+
 
 .p--testimonios {
     text-align: center;
