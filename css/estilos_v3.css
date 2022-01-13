@@ -261,6 +261,15 @@ h4 {
     padding-right: 15%;
 }
 
+.nombres--testimonios {
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 15px;
+  
+    
+}
+
 .card--tratamientos {
     margin: 35px;
     background-image: linear-gradient(to bottom, #f5e5f0, #f6ecf5, #f8f3fa, #fbf9fd, #ffffff);
@@ -281,10 +290,7 @@ h4 {
     background-color: rgba(210, 105, 30, 0.274);
 }
 
-.nombres--testimonios {
-    font-size: 14px;
-    font-style: normal;
-}
+
 
 
 
