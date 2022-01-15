@@ -67,7 +67,7 @@ h3 {
     font-family: $font01;
 }
 
-h4 {
+.mapa__h3 {
     font-family: $font01;
 }
 
@@ -117,7 +117,17 @@ h4 {
 
 //fin extend
 
+//mixin
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
 
+.box {
+    @include sizes(500px, 50px);
+ }
+ 
+//fin mixin
 
 
 .p--bienvenidos {
@@ -229,6 +239,10 @@ h4 {
 @media (max-width: 768px) {
     .navbar-expand-md ul li a {
         text-align: center;
+    }
+
+    .tituloBienvenidos {
+        margin-top: 30px;
     }
 }
 

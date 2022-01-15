@@ -35,7 +35,7 @@ h3 {
   font-family: "Lato", sans-serif;
 }
 
-h4 {
+.mapa__h3 {
   font-family: "Lato", sans-serif;
 }
 
@@ -77,6 +77,11 @@ h4 {
 .h2--Productos {
   text-align: right;
   padding-top: 10px;
+}
+
+.box {
+  height: 50px;
+  width: 500px;
 }
 
 .p--bienvenidos {
@@ -376,6 +381,10 @@ textarea {
 @media (max-width: 768px) {
   .navbar-expand-md ul li a {
     text-align: center;
+  }
+
+  .tituloBienvenidos {
+    margin-top: 30px;
   }
 }
 
