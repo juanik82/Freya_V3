@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* font-family: 'Satisfy', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+//colores
+$colorFondo: #34bfb154;
+$colorCarousel: #f5e5f0;
+
+
+//gradiente
+$gradiente: linear-gradient(to bottom, #f5e5f0, #f6ecf5, #f8f3fa, #fbf9fd, #ffffff);
+
+
+//fuentes
+$font01: 'Lato', sans-serif;
+$font02: 'Satisfy', cursive;
+$font03: "Playfair Display", serif;
+
+
+//box shadow
+$boxShadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* inicio main */
+
+
+h2 {
+    font-family: $font02;
+
+}
+
+.h2--testimonios {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 10px 25px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.seccion__img--descuentos {
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    font-family: $font01;
+}
+
+h4 {
+    font-family: $font01;
+}
+
+.img--bienvenidos {
+    width: 500px;
+    height: auto;
+    border-radius: 3px;
+    max-width: 100%
+}
+
+.img--redes {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.row--bienvenidos {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $colorFondo;
+    padding: 10px;
+    box-shadow: $boxShadow;
+
+}
+
+.row--nosotras {
+    background-image: $gradiente;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+//extend
+.tituloProductos {
+    @extend .row--nosotras;
+    box-shadow: $boxShadow;
+}
+
+.h2--Productos {
+    text-align: right;
+    padding-top: 10px;
+}
+//fin extend
+
+
+
+
+
+
+.p--bienvenidos {
+    text-align: justify;
+    /* padding: 15px; */
+}
+
+.textoBienvenidos {
+    padding: 5px;
+}
+
+.tituloBienvenidos {
+    margin-top: 10px;
+}
+
+
+
+
+.p--testimonios {
+    text-align: center;
+    font-family: $font01;
+    font-style: italic;
+    font-size: 20px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.nombres--testimonios {
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 15px;
+  
+    
+}
+
+.card--tratamientos {
+    margin: 35px;
+    background-image: $gradiente;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-img-top {
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+.img--nosotras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80% !important;
+    height: auto;
+
+}
+
+.p--nosotras {
+    display: flex;
+    flex-direction: column;
+}
+
+.p--nosotras span {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.row-tabla {
+    background-image: linear-gradient(to left, #eef2f8, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+/* fin main */
+
+
+//imports
+
+@import "_animacionImagenes.scss";
+@import "_carousel.scss";
+@import "_descuentos.scss";
+@import "_footer.scss";
+@import "_formulario.scss";
+@import "_header.scss";
+@import "_mapa.scss";
+@import "_nav.scss";
+
+
+//fin imports
+
+
+// media queries
+
+@media (max-width: 768px) {
+    .navbar-expand-md ul li a {
+        text-align: center;
+    }
+}
+
+// fin media queries
+
+
+

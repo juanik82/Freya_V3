@@ -1,0 +1,68 @@
+/* formulario */
+
+form {
+    background-color: rgba(27, 155, 172, 0.185);
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+}
+
+legend {
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
+
+textarea {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.input {
+    margin: 10px;
+    padding: 10px;
+}
+
+.label {
+    margin-left: 10px;
+    font-family: $font01;
+}
+
+.img--nosotras {
+    border-radius: 3px;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+
+
+}
+
+
+
+.articulo--nosotras {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+
+
+
+}
+
+.articulo__pComun--nosotras {
+    width: 100%;
+    /* margin-left: 5%; */
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+
+
+}
+
+
+.legendFormulario {
+    font-weight: bold;
+}
+
+/* fin formulario */

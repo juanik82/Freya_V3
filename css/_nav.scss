@@ -1,0 +1,15 @@
+/* inicio menu de navegacion */
+.navbar {
+    background-color: $colorFondo !important;
+}
+
+.navbar ul li {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.nav-item a:hover {
+    color: blue !important;
+}
+
+/* fin menu de navegacion */

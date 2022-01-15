@@ -1,0 +1,58 @@
+/* inicio footer */
+
+
+#navSecundaria {
+    background-color: rgba(255, 235, 205, 0);
+}
+
+.footer__ul li {
+    margin-bottom: 8px;
+}
+
+.footer__ul {
+    list-style: none;
+    
+}
+
+.footer__a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer__a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer__a:active {
+    color: rgb(87, 2, 87)
+}
+
+.footer__img {
+    width: 20px;
+    display: block;
+    margin: 4px;
+}
+
+.footer__tablaContacto tr td img {
+    padding-bottom: 15px;
+}
+
+
+.footer__div--redes {
+    margin-bottom: 25px;
+}
+
+
+
+footer {
+    background-color: $colorFondo;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer__p {
+    font-family: $font03;
+}
+
+/* fin footer */

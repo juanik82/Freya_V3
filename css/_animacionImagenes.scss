@@ -1,0 +1,20 @@
+/* ANIMACION DE IMAGENES */
+.imgScale {
+    transition: 1s;
+}
+
+.imgScale:hover {
+    transform: scale(2);
+    animation-timing-function: ease-in-out;
+}
+
+.imgScale--nosotras {
+    transition: 0.3s;
+}
+
+.imgScale--nosotras:hover {
+    transform: scale(1.06);
+    animation-timing-function: ease-in-out;
+}
+
+/* FIN ANIMACION DE IMAGENES */

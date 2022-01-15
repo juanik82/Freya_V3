@@ -1,0 +1,20 @@
+/* inicio header */
+.img--header {
+    height: 150px;
+    margin-left: 100px;
+}
+
+.h1--header {
+    /* margin-top: 75px; */
+    font-family: $font01;
+    font-weight: bold;
+}
+
+.row--header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* fin header */
