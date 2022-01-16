@@ -105,59 +105,12 @@ h3 {
 }
 
 
-//extend
-.tituloProductos {
-    @extend .row--nosotras;
-    box-shadow: $boxShadow;
-}
 
-//fin extend
-
-.h2--Productos {
-    text-align: right;
-    padding-top: 10px;
-}
-
-
-
-//mixin
-@mixin cajas($width, $height, $bgcolour, $marginTop) {
-    height: $height;
-    width: $width;
-    background-color: $bgcolour;
-    margin-top: $marginTop;
-
- }
-
-.boxCharla {
-    @include cajas(100%, 150px, rgba(250, 109, 191, 0.699), 25px );
-    
- }
-
-
-.boxFecha {
-    @include cajas(100%, 200px, rgb(232, 245, 173), 10px );
-    border-radius: 15px;
-    box-shadow: inset 0 0 0 1px #999;
-    margin-bottom: 15px;
-    margin-right: 25px;
-    
-    
-}
-
-.boxFechaConfirmar {
-    @include cajas(100%, 200px, rgb(242, 247, 224), 10px );
-    border-radius: 15px;
-    box-shadow: inset 0 0 0 1px #999;
-    margin-bottom: 15px;
-    margin-right: 25px;
-    
-}
-
-// fin mixin
 
 .boxFecha p , .boxFechaConfirmar p {
     margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
 
 }
 
@@ -271,6 +224,7 @@ h3 {
 @import "_header.scss";
 @import "_mapa.scss";
 @import "_nav.scss";
+@import "_desafioSassII.scss";
 
 
 //fin imports
