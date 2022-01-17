@@ -262,6 +262,25 @@ h3 {
         height: 100px;
     }
 
+    .boxCharla {
+        @include cajas(100%, 250px, rgba(250, 109, 191, 0.699), 25px );
+        
+     }
+
+     .h2--Productos {
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .caja--logoFormulaBustos {
+        justify-content: center;
+    }
+
+    .row--envios div {
+        margin-bottom: 10px;
+    }
+
     
 }
 

@@ -476,6 +476,27 @@ textarea {
     margin-left: 20px;
     height: 100px;
   }
+
+  .boxCharla {
+    height: 250px;
+    width: 100%;
+    background-color: rgba(250, 109, 191, 0.699);
+    margin-top: 25px;
+  }
+
+  .h2--Productos {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .caja--logoFormulaBustos {
+    justify-content: center;
+  }
+
+  .row--envios div {
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=estilos_v3.css.map */
