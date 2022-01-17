@@ -59,10 +59,7 @@ h2 {
     text-align: center;
 }
 
-.seccion__img--descuentos {
-    display: flex;
-    flex-direction: row;
-}
+
 
 h3 {
     font-family: $font01;
@@ -79,10 +76,25 @@ h3 {
     max-width: 100%
 }
 
-.img--redes {
-    width: 25%;
-    margin-right: 10px;
+
+//iconos rede index
+.seccion__img--descuentos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.img--redes {
+    width: 75px;
+}
+
+//fin iconos rede index
+
+
+
+
+
 
 .row--bienvenidos {
     display: flex;
@@ -250,6 +262,7 @@ h3 {
     
     .div--descuentos {
         padding-bottom: 30px;
+       
     }
 
     header h1 {

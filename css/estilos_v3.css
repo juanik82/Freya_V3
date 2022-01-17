@@ -27,11 +27,6 @@ h2 {
   text-align: center;
 }
 
-.seccion__img--descuentos {
-  display: flex;
-  flex-direction: row;
-}
-
 h3 {
   font-family: "Lato", sans-serif;
 }
@@ -47,9 +42,15 @@ h3 {
   max-width: 100%;
 }
 
+.seccion__img--descuentos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .img--redes {
-  width: 25%;
-  margin-right: 10px;
+  width: 75px;
 }
 
 .row--bienvenidos {
@@ -266,6 +267,31 @@ footer {
 
 .footer__p {
   font-family: "Playfair Display", serif;
+}
+
+.footer__div--redes {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__div--redes a {
+  text-decoration: none;
+}
+
+.footer__div--redes a :hover {
+  text-decoration: none;
+}
+
+.footer__div--redes i {
+  font-size: 40px;
+}
+
+.fa-facebook-square {
+  color: #333;
+}
+
+.fa-instagram-square {
+  color: #333;
 }
 
 /* fin footer */

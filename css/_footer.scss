@@ -55,4 +55,35 @@ footer {
     font-family: $font03;
 }
 
+//iconos redes footer
+.footer__div--redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__div--redes a {
+    text-decoration: none;
+}
+
+.footer__div--redes a :hover {
+    text-decoration: none;
+}
+
+.footer__div--redes i {
+    font-size: 40px;
+    
+}
+
+
+.fa-facebook-square {
+    color: #333;
+}
+
+.fa-instagram-square {
+    color: #333;
+}
+
+
+//iconos rede footer
+
 /* fin footer */
