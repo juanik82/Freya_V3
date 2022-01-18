@@ -58,7 +58,8 @@ footer {
 //iconos redes footer
 .footer__div--redes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: left;
 }
 
 .footer__div--redes a {
@@ -83,7 +84,11 @@ footer {
     color: #333;
 }
 
+.iconoFacebook {
+    margin-right: 20px;
+}
 
-//iconos rede footer
+
+//iconos redes footer
 
 /* fin footer */

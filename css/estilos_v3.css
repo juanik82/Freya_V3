@@ -271,7 +271,8 @@ footer {
 
 .footer__div--redes {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: left;
 }
 
 .footer__div--redes a {
@@ -292,6 +293,10 @@ footer {
 
 .fa-instagram-square {
   color: #333;
+}
+
+.iconoFacebook {
+  margin-right: 20px;
 }
 
 /* fin footer */
