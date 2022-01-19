@@ -237,6 +237,7 @@ h3 {
 @import "_mapa.scss";
 @import "_nav.scss";
 @import "_desafioSassII.scss";
+@import "_botonHeader.scss";
 
 
 //fin imports
@@ -266,13 +267,14 @@ h3 {
     }
 
     header h1 {
-        margin-top: 20px;
+        padding-bottom: 15px;
         font-size: 25px;
     }
 
     .img--header {
-        margin-left: 20px;
-        height: 100px;
+        margin-left: auto;
+        height: 150px;
+        padding-top: 30px
     }
 
     .boxCharla {
@@ -283,7 +285,7 @@ h3 {
      .h2--Productos {
         text-align: center;
         padding-top: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     .caja--logoFormulaBustos {
@@ -296,6 +298,16 @@ h3 {
 
     .iconoFacebook {
         margin-right: 10px;
+    }
+
+    .button, .button:before, .button:after, .button:hover, .button:hover:before, .button:hover:after {
+        margin-bottom: 10px;
+        font-size: 16px;
+       
+    }
+
+    .div--newsletter p {
+       margin-bottom: 3px;
     }
 
     
