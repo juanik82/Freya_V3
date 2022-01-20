@@ -150,13 +150,6 @@ h3 {
   font-size: 18px;
 }
 
-.row-tabla {
-  background-image: linear-gradient(to left, #eef2f8, #f1f4f9, #deebf2, #cae2e6, #bad9d3);
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
-
 /* fin main */
 /* ANIMACION DE IMAGENES */
 .imgScale {
@@ -616,6 +609,16 @@ header {
   border-color: #285e8e;
 }
 
+.card-text1 {
+  margin-bottom: 3px;
+}
+
+video {
+  width: 450px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 @media (max-width: 768px) {
   .navbar-expand-md ul li a {
     text-align: center;
@@ -677,6 +680,18 @@ header {
 
   .div--newsletter p {
     margin-bottom: 3px;
+  }
+
+  .card--mobile {
+    margin-bottom: 25px;
+  }
+
+  video {
+    width: 320px;
+  }
+
+  .h3--productos {
+    margin-left: 10px;
   }
 }
 
