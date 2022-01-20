@@ -587,6 +587,35 @@ header {
   margin-top: 16px;
 }
 
+.row--productos {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.row--productos .card {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.cardTitle--productos {
+  font-size: 18px;
+}
+
+.h3--productos {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #f5e5f0;
+  color: black;
+  border: 1px solid #2b2a2a;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #05aeb4;
+  border-color: #285e8e;
+}
+
 @media (max-width: 768px) {
   .navbar-expand-md ul li a {
     text-align: center;
