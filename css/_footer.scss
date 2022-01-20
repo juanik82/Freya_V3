@@ -38,6 +38,15 @@
     padding-bottom: 15px;
 }
 
+.footer__tablaContacto tr td a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__tablaContacto tr td a :hover {
+    color: blue;
+}
+
 
 .footer__div--redes {
     margin-bottom: 25px;

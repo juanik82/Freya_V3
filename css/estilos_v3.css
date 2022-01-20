@@ -164,7 +164,7 @@ h3 {
 }
 
 .imgScale:hover {
-  transform: scale(2);
+  transform: scale(1.5);
   animation-timing-function: ease-in-out;
 }
 
@@ -255,6 +255,15 @@ h3 {
   padding-bottom: 15px;
 }
 
+.footer__tablaContacto tr td a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer__tablaContacto tr td a :hover {
+  color: blue;
+}
+
 .footer__div--redes {
   margin-bottom: 25px;
 }
@@ -306,6 +315,7 @@ form {
   border: 1px solid black;
   margin: 15px;
   padding: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
 }
 
 legend {
@@ -317,11 +327,15 @@ textarea {
   width: 90%;
   margin: 10px;
   padding: 10px;
+  font-size: 14px;
 }
 
 .input {
   margin: 10px;
   padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 .label {
