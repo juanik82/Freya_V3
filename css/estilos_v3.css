@@ -64,7 +64,7 @@ h3 {
 .row--bienvenidos {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-bottom: 20px;
   background-color: #34bfb154;
   padding: 10px;
@@ -404,7 +404,7 @@ header {
 
 .container--mapa {
   padding: 15px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 /* fin mapa */
