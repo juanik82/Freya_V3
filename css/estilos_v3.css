@@ -310,7 +310,7 @@ form {
   padding: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
   margin-top: 35px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 legend {
@@ -510,7 +510,7 @@ header {
 
 .row--productos {
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .row--productos .card {
