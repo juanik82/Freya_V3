@@ -114,6 +114,11 @@ h3 {
     display: flex;
     align-items: center;
     padding: 20px;
+    box-shadow: $boxShadow;
+}
+
+.h3--nosotras {
+    margin-top: 50px;
 }
 
 
@@ -232,7 +237,6 @@ h3 {
 @import "_header.scss";
 @import "_mapa.scss";
 @import "_nav.scss";
-@import "_desafioSassII.scss";
 @import "_botonHeader.scss";
 @import "_whatsapp.scss";
 @import "_productos.scss";
@@ -274,10 +278,7 @@ h3 {
         padding-top: 30px
     }
 
-    .boxCharla {
-        @include cajas(100%, 250px, rgba(250, 109, 191, 0.699), 25px );
-        
-     }
+    
 
      .h2--Productos {
         text-align: center;

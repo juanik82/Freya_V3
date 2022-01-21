@@ -34,7 +34,16 @@
 }
 
 video {
-    width: 450px;
+    width: 420px;
     margin-top: 10px;
     margin-bottom: 30px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    box-shadow: $boxShadow;
+
+}
+
+.tituloProductos {
+    @extend .row--nosotras;
+    
 }
