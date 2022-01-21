@@ -1,6 +1,6 @@
 .row--productos {
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     
 }
 
@@ -39,11 +39,38 @@ video {
     margin-bottom: 30px;
     padding: 10px 10px;
     border: 1px solid black;
+    border-radius: 3px;
     box-shadow: $boxShadow;
 
 }
 
+.h2--productos { 
+   margin-right: 35px;
+   padding-top: 20px;
+   margin-top: 35px
+   
+}
+
+.marginKit {
+    margin-bottom: 27px;
+}
+
 .tituloProductos {
-    @extend .row--nosotras;
+    background-image: $gradiente;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: $boxShadow;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
+
+.h2--tituloPrincipal {
+    margin-right: 40px;
+    padding-top: 20px;
+}
+

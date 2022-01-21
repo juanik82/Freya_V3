@@ -6,19 +6,19 @@
     padding-bottom: 15px;
 }
 
+
+
 .h1--header {
-    color: rgb(20, 22, 22);
+    color: rgb(0, 0, 0);
     font-family: $font01;
     font-weight: bold;
     text-align: left;
-    filter: drop-shadow(0 0 1rem rgb(112, 112, 112));
+    filter: drop-shadow(3px 3px 10px $colorFondo);
 }
 
 .row--header {
     display: flex;
     align-items: center;
-    // margin-top: 20px;
-    // margin-bottom: 20px;
     
 }
 
@@ -29,7 +29,6 @@ header {
 .div--newsletter p {
     margin-bottom: 5px;
 }
-
 
 
 /* fin header */

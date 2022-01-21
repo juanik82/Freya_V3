@@ -42,9 +42,17 @@ $boxShadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
 /* inicio main */
 
 
-h2 {
+.h2--cursive {
     font-family: $font02;
 
+}
+
+.h2--lato {
+    font-family: $font01;
+}
+
+.h3--lato {
+    font-family: $font01;
 }
 
 .h2--testimonios {
@@ -94,8 +102,6 @@ h3 {
 
 
 
-
-
 .row--bienvenidos {
     display: flex;
     align-items: center;
@@ -110,37 +116,18 @@ h3 {
 .row--nosotras {
     background-image: $gradiente;
     margin-top: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 65px;
     display: flex;
     align-items: center;
     padding: 20px;
     box-shadow: $boxShadow;
 }
 
-.h3--nosotras {
+.h2--nosotras {
     margin-top: 50px;
 }
 
-
-
-
-.boxFecha p , .boxFechaConfirmar p {
-    margin-top: 10px;
-    padding-top: 15px;
-    padding-left: 10px;
-
-}
-
-.boxCharla p {
-    text-align: center;
-    padding-top: 30px;
-    font-size: large;
-    font-weight: bold;
-}
-
  
-
-
 
 .p--bienvenidos {
     text-align: justify;
@@ -244,6 +231,7 @@ h3 {
 //fin imports
 
 
+
 // media queries
 
 @media (max-width: 768px) {
@@ -278,13 +266,6 @@ h3 {
         padding-top: 30px
     }
 
-    
-
-     .h2--Productos {
-        text-align: center;
-        padding-top: 10px;
-        margin-bottom: 5px;
-    }
 
     .caja--logoFormulaBustos {
         justify-content: center;
@@ -319,7 +300,18 @@ h3 {
     .h3--productos {
         margin-left: 10px;
     }
+
+    .img--labo {
+        margin-right: 20px;
+    }
     
+    .tituloProductos {
+        margin-top: 30px;
+    }
+
+    .row--productos {
+        margin-bottom: 15px;
+    }
 }
 
 // fin media queries

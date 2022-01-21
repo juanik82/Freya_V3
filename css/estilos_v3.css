@@ -11,8 +11,16 @@
 }
 
 /* inicio main */
-h2 {
+.h2--cursive {
   font-family: "Satisfy", cursive;
+}
+
+.h2--lato {
+  font-family: "Lato", sans-serif;
+}
+
+.h3--lato {
+  font-family: "Lato", sans-serif;
 }
 
 .h2--testimonios {
@@ -63,31 +71,18 @@ h3 {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
 }
 
-.row--nosotras, .tituloProductos {
+.row--nosotras {
   background-image: linear-gradient(to bottom, #f5e5f0, #f6ecf5, #f8f3fa, #fbf9fd, #ffffff);
   margin-top: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 65px;
   display: flex;
   align-items: center;
   padding: 20px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
 }
 
-.h3--nosotras {
+.h2--nosotras {
   margin-top: 50px;
-}
-
-.boxFecha p, .boxFechaConfirmar p {
-  margin-top: 10px;
-  padding-top: 15px;
-  padding-left: 10px;
-}
-
-.boxCharla p {
-  text-align: center;
-  padding-top: 30px;
-  font-size: large;
-  font-weight: bold;
 }
 
 .p--bienvenidos {
@@ -314,6 +309,8 @@ form {
   margin: 15px;
   padding: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
+  margin-top: 35px;
+  margin-bottom: 50px;
 }
 
 legend {
@@ -377,11 +374,11 @@ textarea {
 }
 
 .h1--header {
-  color: #141616;
+  color: black;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   text-align: left;
-  filter: drop-shadow(0 0 1rem #707070);
+  filter: drop-shadow(3px 3px 10px #34bfb154);
 }
 
 .row--header {
@@ -513,7 +510,7 @@ header {
 
 .row--productos {
   margin-top: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .row--productos .card {
@@ -550,7 +547,36 @@ video {
   margin-bottom: 30px;
   padding: 10px 10px;
   border: 1px solid black;
+  border-radius: 3px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
+}
+
+.h2--productos {
+  margin-right: 35px;
+  padding-top: 20px;
+  margin-top: 35px;
+}
+
+.marginKit {
+  margin-bottom: 27px;
+}
+
+.tituloProductos {
+  background-image: linear-gradient(to bottom, #f5e5f0, #f6ecf5, #f8f3fa, #fbf9fd, #ffffff);
+  margin-top: 60px;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.h2--tituloPrincipal {
+  margin-right: 40px;
+  padding-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -580,12 +606,6 @@ video {
     margin-left: auto;
     height: 150px;
     padding-top: 30px;
-  }
-
-  .h2--Productos {
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 5px;
   }
 
   .caja--logoFormulaBustos {
@@ -619,6 +639,18 @@ video {
 
   .h3--productos {
     margin-left: 10px;
+  }
+
+  .img--labo {
+    margin-right: 20px;
+  }
+
+  .tituloProductos {
+    margin-top: 30px;
+  }
+
+  .row--productos {
+    margin-bottom: 15px;
   }
 }
 
