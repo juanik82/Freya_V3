@@ -1,0 +1,40 @@
+
+.div--velaSlim {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-image: url(../images_v3/fondoStars.svg);
+}
+
+.img--vela {
+    max-width: 75%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 8px;
+    border: 1px solid rgb(126, 207, 201);
+    border-radius: 3px;
+}
+
+.card--vela {
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    background: $gradiente;
+    box-shadow: $boxShadow;
+    margin-bottom: 10px;
+    
+}
+
+.row-velaSlim {
+    margin-bottom: 50px;
+}
+
+.velaslimplus {
+    font-family: $font02;
+}
+
+
+

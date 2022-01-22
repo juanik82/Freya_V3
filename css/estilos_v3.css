@@ -85,6 +85,10 @@ h3 {
   margin-top: 50px;
 }
 
+.h2--trat {
+  margin-top: 20px;
+}
+
 .p--bienvenidos {
   text-align: justify;
   /* padding: 15px; */
@@ -122,6 +126,10 @@ h3 {
 .card--tratamientos {
   margin: 35px;
   background-image: linear-gradient(to bottom, #f5e5f0, #f6ecf5, #f8f3fa, #fbf9fd, #ffffff);
+}
+
+.row--tratamientos {
+  margin-bottom: 50px;
 }
 
 .card-text {
@@ -565,18 +573,58 @@ video {
   background-image: linear-gradient(to bottom, #f5e5f0, #f6ecf5, #f8f3fa, #fbf9fd, #ffffff);
   margin-top: 60px;
   margin-bottom: 35px;
-  display: flex;
   align-items: center;
   padding: 20px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
-.h2--tituloPrincipal {
-  margin-right: 40px;
-  padding-top: 20px;
+.div--tituloProductos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.div--tituloProductos h2 {
+  padding-top: 15px;
+}
+
+.div--velaSlim {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  background-image: url(../images_v3/fondoStars.svg);
+}
+
+.img--vela {
+  max-width: 75%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 8px;
+  border: 1px solid #7ecfc9;
+  border-radius: 3px;
+}
+
+.card--vela {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #f5e5f0, #f6ecf5, #f8f3fa, #fbf9fd, #ffffff);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
+  margin-bottom: 10px;
+}
+
+.row-velaSlim {
+  margin-bottom: 50px;
+}
+
+.velaslimplus {
+  font-family: "Satisfy", cursive;
 }
 
 @media (max-width: 768px) {
@@ -620,7 +668,12 @@ video {
     margin-right: 10px;
   }
 
-  .button, .button:before, .button:after, .button:hover, .button:hover:before, .button:hover:after {
+  .button,
+.button:before,
+.button:after,
+.button:hover,
+.button:hover:before,
+.button:hover:after {
     margin-bottom: 10px;
     font-size: 16px;
   }
@@ -642,15 +695,35 @@ video {
   }
 
   .img--labo {
-    margin-right: 20px;
+    margin-top: 10px;
   }
 
-  .tituloProductos {
-    margin-top: 30px;
+  .div--tituloProductos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 5px;
   }
 
   .row--productos {
     margin-bottom: 15px;
+  }
+
+  .div--velaSlim {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+  }
+
+  .img--vela {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .row--tratamientos {
+    margin-bottom: 10px;
   }
 }
 

@@ -93,6 +93,8 @@ h3 {
     justify-content: center;
 }
 
+
+
 .img--redes {
     width: 75px;
 }
@@ -127,7 +129,11 @@ h3 {
     margin-top: 50px;
 }
 
- 
+.h2--trat {
+    margin-top: 20px;
+}
+
+
 
 .p--bienvenidos {
     text-align: justify;
@@ -171,6 +177,11 @@ h3 {
 .card--tratamientos {
     margin: 35px;
     background-image: $gradiente;
+
+}
+
+.row--tratamientos {
+    margin-bottom: 50px;
 }
 
 .card-text {
@@ -227,6 +238,7 @@ h3 {
 @import "_botonHeader.scss";
 @import "_whatsapp.scss";
 @import "_productos.scss";
+@import "_velaSlim.scss";
 
 //fin imports
 
@@ -249,10 +261,10 @@ h3 {
         padding-top: 30px;
     }
 
-    
+
     .div--descuentos {
         padding-bottom: 30px;
-       
+
     }
 
     header h1 {
@@ -279,14 +291,19 @@ h3 {
         margin-right: 10px;
     }
 
-    .button, .button:before, .button:after, .button:hover, .button:hover:before, .button:hover:after {
+    .button,
+    .button:before,
+    .button:after,
+    .button:hover,
+    .button:hover:before,
+    .button:hover:after {
         margin-bottom: 10px;
         font-size: 16px;
-       
+
     }
 
     .div--newsletter p {
-       margin-bottom: 3px;
+        margin-bottom: 3px;
     }
 
     .card--mobile {
@@ -302,16 +319,41 @@ h3 {
     }
 
     .img--labo {
-        margin-right: 20px;
+        margin-top: 10px;
     }
-    
-    .tituloProductos {
-        margin-top: 30px;
+
+
+    .div--tituloProductos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 5px;
+
     }
 
     .row--productos {
         margin-bottom: 15px;
     }
+
+    .div--velaSlim {
+        display: flex;
+        flex-wrap: wrap;
+        background-size: cover;
+    }
+
+    .img--vela {
+        max-width: 90%;
+        height: auto;
+
+    }
+
+    .row--tratamientos {
+        margin-bottom: 10px;
+    }
+
+
 }
 
 // fin media queries
