@@ -740,9 +740,9 @@ video {
   }
 
   .h1--header {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-top: 20px;
-    text-align: center;
+    text-align: left;
   }
 
   .img--header {
@@ -753,11 +753,11 @@ video {
   }
 
   .div--newsletter {
-    display: flex;
-    justify-content: right;
-    flex-direction: column;
-    text-align: right;
-    padding-right: 30px;
+    display: none;
+  }
+
+  .div--logoHeader {
+    width: 50%;
   }
 }
 
