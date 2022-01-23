@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 /* font-family: 'Satisfy', cursive; */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
 /* font-family: 'Playfair Display', serif; */
 * {
   margin: 0;
@@ -91,7 +92,7 @@ h3 {
 
 .p--bienvenidos {
   text-align: justify;
-  /* padding: 15px; */
+  
 }
 
 .textoBienvenidos {
@@ -569,7 +570,11 @@ header {
   border: 1px solid #2b2a2a;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #05aeb4;
   border-color: #285e8e;
@@ -699,11 +704,11 @@ video {
   }
 
   .button,
-.button:before,
-.button:after,
-.button:hover,
-.button:hover:before,
-.button:hover:after {
+  .button:before,
+  .button:after,
+  .button:hover,
+  .button:hover:before,
+  .button:hover:after {
     margin-bottom: 10px;
     font-size: 16px;
   }
