@@ -391,7 +391,9 @@ textarea {
 
 .row--header {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 header {
@@ -728,6 +730,26 @@ video {
 
   .footer__div--marginBottom {
     margin-bottom: 25px;
+  }
+
+  .row--header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .h1--header {
+    font-size: 1.2rem;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .img--header {
+    height: 130px;
+    margin-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
