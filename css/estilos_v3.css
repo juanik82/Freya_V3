@@ -725,6 +725,10 @@ video {
   .row--tratamientos {
     margin-bottom: 10px;
   }
+
+  .footer__div--marginBottom {
+    margin-bottom: 25px;
+  }
 }
 
 /*# sourceMappingURL=estilos_v3.css.map */
