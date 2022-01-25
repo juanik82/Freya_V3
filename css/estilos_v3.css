@@ -627,7 +627,11 @@ video {
   justify-content: center;
   width: auto;
   height: auto;
+}
+
+.fondo--vela {
   background-image: url(../images_v3/fondoStars.svg);
+  background-position: center;
 }
 
 .img--vela {
@@ -657,8 +661,26 @@ video {
   font-family: "Satisfy", cursive;
 }
 
-.div--hifu {
+.fondo--hifu {
   background-image: url(../images_v3/circles.svg);
+  background-position: center;
+}
+
+.fondo--radioFrec {
+  background-image: url(../images_v3/polygon.svg);
+  background-position: center;
+}
+
+.textoRadio {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+  line-height: 2;
+  text-align: justify;
+}
+
+.fondo--dermapen {
+  background: url(../images_v3/blob.svg);
   background-position: center;
 }
 

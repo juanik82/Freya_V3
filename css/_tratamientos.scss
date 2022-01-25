@@ -6,7 +6,12 @@
     justify-content: center;
     width: auto;
     height: auto;
+    
+}
+
+.fondo--vela {
     background-image: url(../images_v3/fondoStars.svg);
+    background-position: center;
 }
 
 .img--vela {
@@ -41,10 +46,9 @@
 
 
 //hifu
-    .div--hifu {
+    .fondo--hifu {
         background-image: url(../images_v3/circles.svg);
         background-position: center;
-
     }
 
     
@@ -52,12 +56,28 @@
 
 
 // radiofrecuencia
+    .fondo--radioFrec {
+    background-image: url(../images_v3/polygon.svg);
+    background-position: center;
+    
+}
 
+.textoRadio {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    line-height: 2;
+    text-align: justify;
+    
+}
 // fin radiofrecuencia
 
 
 // dermapen
-
+.fondo--dermapen {
+    background: url(../images_v3/blob.svg);
+    background-position: center;
+}
 // fin dermapen
 
 
