@@ -699,6 +699,7 @@ video {
 .jumbotron p {
   background-color: rgba(255, 255, 255, 0.479);
   padding: 1% 2%;
+  font-size: large;
 }
 
 @media (max-width: 768px) {
