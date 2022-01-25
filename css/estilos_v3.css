@@ -684,6 +684,23 @@ video {
   background-position: center;
 }
 
+.jumbotron {
+  height: 350px;
+  background-image: url(../images_v3/charlaOnline.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1 {
+  text-shadow: 1px 1px 8px black;
+  color: whitesmoke;
+}
+
+.jumbotron p {
+  background-color: rgba(255, 255, 255, 0.479);
+  padding: 1% 2%;
+}
+
 @media (max-width: 768px) {
   .navbar-expand-md ul li a {
     text-align: center;
