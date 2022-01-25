@@ -657,6 +657,11 @@ video {
   font-family: "Satisfy", cursive;
 }
 
+.div--hifu {
+  background-image: url(../images_v3/circles.svg);
+  background-position: center;
+}
+
 @media (max-width: 768px) {
   .navbar-expand-md ul li a {
     text-align: center;
@@ -741,7 +746,7 @@ video {
     margin-bottom: 15px;
   }
 
-  .div--velaSlim {
+  .div--velaSlim, .div--hifu {
     display: flex;
     flex-wrap: wrap;
     background-size: cover;

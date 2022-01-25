@@ -363,11 +363,12 @@ h3 {
         margin-bottom: 15px;
     }
 
-    .div--velaSlim {
+    .div--velaSlim, .div--hifu {
         display: flex;
         flex-wrap: wrap;
         background-size: cover;
     }
+
 
    
     .img--vela {
@@ -420,11 +421,12 @@ h3 {
     }
 
     .div--newsletter {
-        display: none // display: flex;
-            // justify-content: right;
-            // flex-direction: column;
-            // text-align: right;
-            // padding-right: 30px;
+        display: none 
+        // display: flex;
+        // justify-content: right;
+        // flex-direction: column;
+        // text-align: right;
+        // padding-right: 30px;
     }
 
     .div--logoHeader {
