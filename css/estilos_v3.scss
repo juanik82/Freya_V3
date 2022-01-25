@@ -269,7 +269,7 @@ h3 {
 @import "_whatsapp.scss";
 @import "_productos.scss";
 @import "_velaSlim.scss";
-@import "_hifu.scss";
+
 
 //fin imports
 
@@ -374,11 +374,14 @@ h3 {
         background-size: cover;
     }
 
+   
     .img--vela {
         max-width: 90%;
         height: auto;
 
     }
+
+    
 
     .card--vela {
         height: auto;

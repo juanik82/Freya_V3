@@ -657,48 +657,6 @@ video {
   font-family: "Satisfy", cursive;
 }
 
-.div--hifu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: auto;
-  height: auto;
-  background-image: url(../images_v3/circles.svg);
-}
-
-.img--vela {
-  max-width: 75%;
-  height: auto;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  padding: 8px;
-  border: 1px solid #7ecfc9;
-  border-radius: 3px;
-}
-
-.card--vela {
-  width: 500px;
-  height: 400px;
-  border-radius: 10px;
-  background: linear-gradient(to bottom, #f5e5f0, #f6ecf5, #f8f3fa, #fbf9fd, #ffffff);
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
-  margin-bottom: 10px;
-}
-
-.row-velaSlim {
-  margin-bottom: 50px;
-}
-
-.velaslimplus {
-  font-family: "Satisfy", cursive;
-}
-
-.lista--hifu hr {
-  height: 0;
-  border: 0;
-  background-color: rgba(255, 255, 255, 0);
-}
-
 @media (max-width: 768px) {
   .navbar-expand-md ul li a {
     text-align: center;
