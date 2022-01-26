@@ -6,6 +6,11 @@
     background-size: cover;
     background-position: center;
     margin-top: 40px;
+   
+}
+
+.row--jumbotron {
+    border-top: 1px solid rgb(206, 206, 206);
 }
 
 .jumbotron h1 {
@@ -22,4 +27,8 @@
 
 .h2--charlas {
     margin-top: 20px;
+}
+
+.tabla--charlas {
+    margin-bottom: 50px;
 }

@@ -61,6 +61,10 @@ h3 {
   width: 75px;
 }
 
+.row--descuentos {
+  width: 95%;
+}
+
 .row--bienvenidos {
   display: flex;
   align-items: center;
@@ -692,6 +696,10 @@ video {
   margin-top: 40px;
 }
 
+.row--jumbotron {
+  border-top: 1px solid #cecece;
+}
+
 .jumbotron h1 {
   text-shadow: 1px 1px 8px black;
   color: whitesmoke;
@@ -705,6 +713,10 @@ video {
 
 .h2--charlas {
   margin-top: 20px;
+}
+
+.tabla--charlas {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
