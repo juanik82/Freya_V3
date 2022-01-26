@@ -264,7 +264,7 @@ h3 {
 @import "_whatsapp.scss";
 @import "_productos.scss";
 @import "_tratamientos.scss";
-@import "_jumbotronNosotras.scss";
+@import "_nosotras.scss";
 
 
 //fin imports
@@ -432,6 +432,14 @@ h3 {
 
     .div--logoHeader {
         width: 50%;
+    }
+
+    .jumbotron {
+        height: auto;
+    }
+
+    .h2--charlas {
+        margin-left: 10px;
     }
 
 }
