@@ -285,18 +285,29 @@ h3 {
 
     .div--giftCard {
         border-top: 1px dotted #999;
-        padding-top: 30px;
+        padding-top: 30px;    
+    }
+
+
+    .img--bienvenidos {
+        margin-top: 15px;
     }
 
 
     .div--descuentos {
         padding-bottom: 30px;
+        
+    }
+
+    .row--descuentos {
+        width: 95%;
 
     }
 
     header h1 {
         padding-bottom: 15px;
         font-size: 25px;
+        width: 95%;
     }
 
     .img--header {
