@@ -629,6 +629,31 @@ video {
   padding-top: 15px;
 }
 
+.div--pagoEnvio {
+  display: flex;
+  justify-content: center;
+}
+
+.formasPagoEnvio {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 55px;
+  text-align: center;
+  background-color: #f5e5f0;
+  width: 40%;
+  line-height: 35px;
+  border-radius: 5px;
+}
+
+.formasPagoEnvio a {
+  text-decoration: none;
+  color: black;
+}
+
+.formasPagoEnvio a:hover {
+  color: blue;
+}
+
 .div--velaSlim {
   display: flex;
   flex-wrap: wrap;
@@ -801,6 +826,18 @@ video {
 
   .h3--productos {
     margin-left: 10px;
+  }
+
+  .formasPagoEnvio {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #f5e5f0;
+    width: 80%;
+    line-height: 25px;
+    border-radius: 5px;
   }
 
   .img--labo {

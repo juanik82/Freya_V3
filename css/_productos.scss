@@ -78,3 +78,29 @@ video {
 .div--tituloProductos h2 {
     padding-top: 15px;
 }
+
+.div--pagoEnvio {
+    display: flex;
+    justify-content: center
+}
+
+.formasPagoEnvio {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 55px;
+    text-align: center;
+    background-color: $colorCarousel;
+    width: 40%;
+    line-height: 35px;
+    border-radius: 5px;
+
+}
+
+.formasPagoEnvio a {
+    text-decoration: none;
+    color: black;
+}
+
+.formasPagoEnvio a:hover {
+    color: blue;
+}
