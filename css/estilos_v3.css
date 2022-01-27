@@ -236,6 +236,10 @@ h3 {
   margin-top: 20px;
 }
 
+.div--descuentos {
+  border-right: 1px dotted #999;
+}
+
 .div--descuentos h3 {
   margin-bottom: 20px;
 }
@@ -733,6 +737,10 @@ video {
     padding-top: 30px;
   }
 
+  .div--descuentos {
+    border-right: 0;
+  }
+
   .img--bienvenidos {
     margin-top: 15px;
   }
@@ -877,6 +885,12 @@ video {
 
   .h2--charlas {
     margin-left: 10px;
+  }
+
+  .tabla--charlas {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
