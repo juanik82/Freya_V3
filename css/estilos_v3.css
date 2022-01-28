@@ -348,7 +348,7 @@ footer {
 /* fin footer */
 /* formulario */
 form {
-  background-color: rgba(27, 155, 172, 0.185);
+  background-image: url(../images_v3/fondoFormulario.svg);
   border: 1px solid black;
   margin: 15px;
   padding: 10px;
