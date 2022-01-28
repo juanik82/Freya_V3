@@ -161,7 +161,7 @@ h3 {
     text-align: center;
     font-family: $font01;
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.8em;
     height: 304px;
     display: flex;
     flex-direction: column;
@@ -172,7 +172,7 @@ h3 {
 }
 
 .nombres--testimonios {
-    font-size: 14px;
+    font-size: 1.3rem;
     font-style: normal;
     text-align: center;
     margin-top: 15px;
@@ -294,6 +294,14 @@ h3 {
     .div--giftCard {
         border-top: 1px dotted #999;
         padding-top: 30px;    
+    }
+
+    .p--testimonios {
+        font-size: 1.4em;
+    }
+
+    .nombres--testimonios {
+        font-size: 1rem;
     }
 
     .div--descuentos {
