@@ -11,6 +11,7 @@
 }
 
 /* inicio main */
+/* encabezados*/
 .h2--cursive {
   font-family: "Satisfy", cursive;
 }
@@ -35,6 +36,14 @@
   text-align: center;
 }
 
+.h2--nosotras {
+  margin-top: 50px;
+}
+
+.h2--trat {
+  margin-top: 20px;
+}
+
 h3 {
   font-family: "Lato", sans-serif;
 }
@@ -43,6 +52,7 @@ h3 {
   font-family: "Lato", sans-serif;
 }
 
+/* fin encabezados*/
 .img--bienvenidos {
   width: 500px;
   height: auto;
@@ -50,6 +60,7 @@ h3 {
   max-width: 100%;
 }
 
+/* iconos redes index */
 .seccion__img--descuentos {
   display: flex;
   flex-direction: row;
@@ -61,6 +72,7 @@ h3 {
   width: 75px;
 }
 
+/* fin iconos redes index */
 .row--descuentos {
   width: 95%;
 }
@@ -85,17 +97,8 @@ h3 {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
 }
 
-.h2--nosotras {
-  margin-top: 50px;
-}
-
-.h2--trat {
-  margin-top: 20px;
-}
-
 .p--bienvenidos {
   text-align: justify;
-  /* padding: 15px; */
 }
 
 .textoBienvenidos {
@@ -470,6 +473,7 @@ header {
 }
 
 /* fin menu de navegacion */
+/* boton header */
 .button {
   display: inline-block;
   padding: 12px 24px;
@@ -530,6 +534,8 @@ header {
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
+/* fin boton header */
+/* whatsapp */
 .float {
   position: fixed;
   width: 60px;
@@ -555,6 +561,8 @@ header {
   margin-top: 16px;
 }
 
+/* fin whatsapp */
+/* productos */
 .row--productos {
   margin-top: 30px;
   margin-bottom: 60px;
@@ -664,6 +672,8 @@ video {
   margin-left: 15px;
 }
 
+/* fin productos */
+/* vela slim */
 .div--velaSlim {
   display: flex;
   flex-wrap: wrap;
@@ -704,11 +714,15 @@ video {
   font-family: "Satisfy", cursive;
 }
 
+/* vela slim */
+/* hifu */
 .fondo--hifu {
   background-image: url(../images_v3/circles.svg);
   background-position: center;
 }
 
+/* fin hifu */
+/* radiofrecuencia */
 .fondo--radioFrec {
   background-image: url(../images_v3/polygon.svg);
   background-position: center;
@@ -722,11 +736,15 @@ video {
   text-align: justify;
 }
 
+/* fin radiofrecuencia */
+/* dermapen */
 .fondo--dermapen {
   background: url(../images_v3/blob.svg);
   background-position: center;
 }
 
+/* fin dermapen */
+/* nosotras */
 .jumbotron {
   height: 350px;
   background-image: url(../images_v3/charlaOnline.jpg);
@@ -758,6 +776,8 @@ video {
   margin-bottom: 50px;
 }
 
+/* fin nosotras */
+/* media queries */
 @media (max-width: 768px) {
   .navbar-expand-md ul li a {
     text-align: center;
@@ -950,5 +970,6 @@ video {
     margin-right: auto;
   }
 }
+/* fin media queries */
 
 /*# sourceMappingURL=estilos_v3.css.map */

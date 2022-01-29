@@ -43,7 +43,7 @@ $boxShadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
 
 
 
-
+/* encabezados*/
 .h2--cursive {
     font-family: $font02;
 
@@ -69,7 +69,13 @@ $boxShadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
     text-align: center;
 }
 
+.h2--nosotras {
+    margin-top: 50px;
+}
 
+.h2--trat {
+    margin-top: 20px;
+}
 
 h3 {
     font-family: $font01;
@@ -78,6 +84,9 @@ h3 {
 .mapa__h3 {
     font-family: $font01;
 }
+/* fin encabezados*/
+
+
 
 .img--bienvenidos {
     width: 500px;
@@ -87,7 +96,7 @@ h3 {
 }
 
 
-//iconos redes index
+/* iconos redes index */
 .seccion__img--descuentos {
     display: flex;
     flex-direction: row;
@@ -101,7 +110,7 @@ h3 {
     width: 75px;
 }
 
-//fin iconos redes index
+/* fin iconos redes index */
 
 
 .row--descuentos {
@@ -131,19 +140,13 @@ h3 {
     box-shadow: $boxShadow;
 }
 
-.h2--nosotras {
-    margin-top: 50px;
-}
 
-.h2--trat {
-    margin-top: 20px;
-}
 
 
 
 .p--bienvenidos {
     text-align: justify;
-    /* padding: 15px; */
+   
 }
 
 .textoBienvenidos {
@@ -247,16 +250,11 @@ h3 {
 
 }
 
-
-
-
-
-
 /* fin main */
 
 
 
-//imports
+// imports
 
 @import "_animacionImagenes.scss";
 @import "_carousel.scss";
@@ -273,11 +271,11 @@ h3 {
 @import "_nosotras.scss";
 
 
-//fin imports
+// fin imports 
 
 
 
-// media queries
+/* media queries */
 
 @media (max-width: 768px) {
 
@@ -490,4 +488,4 @@ h3 {
 
 }
 
-// fin media queries
+/* fin media queries */
