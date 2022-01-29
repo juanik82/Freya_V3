@@ -88,9 +88,10 @@ video {
     font-size: 18px;
     font-weight: bold;
     margin-top: 55px;
+    margin-bottom: 30px;
     text-align: center;
     background-color: $colorCarousel;
-    width: 40%;
+    width: 50%;
     line-height: 35px;
     border-radius: 5px;
 
@@ -103,4 +104,12 @@ video {
 
 .formasPagoEnvio a:hover {
     color: blue;
+}
+
+.row--pagoEnvio {
+    margin-top: 10px;
+}
+
+.fa-credit-card, .fa-truck {
+    margin-left: 15px;
 }
